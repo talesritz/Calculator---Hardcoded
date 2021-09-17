@@ -26,7 +26,7 @@ let historicString = '';
 let outputMath = [];
 let result = 0;
 
-//chears all values
+//clears all values
 function clear() {
   outputMath.splice(0);
   historicString = '';
@@ -48,7 +48,7 @@ function displayHistoric(array) {
   }
   historic.value = historicString;
 }
-//controls if we're typing elemt A (outputMath[0]) or element B (outputMath[2]) of a operation
+//controls if we're typing element A (outputMath[0]) or element B (outputMath[2]) of an operation
 function swapIndex() {
   if (index == 0) {
     index = 2;
